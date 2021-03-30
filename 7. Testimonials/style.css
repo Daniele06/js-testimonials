@@ -1,0 +1,112 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#presentation {
+    margin: 150px 0px 80px 0px;
+    text-align: center;
+}
+
+#presentation h2 {
+    color: #0044ff;
+    pointer-events: none;
+}
+
+#presentation h1 {
+    color: #1a1a1a;
+    font-size: 25px;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+
+#box {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #414141;
+    border-radius: 50px;
+}
+
+#clientPicture {
+    width: 140px;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-top: -50px;
+}
+
+#name {
+    color: #1a1a1a;
+    margin: 10px 0px 0px 0px;
+    pointer-events: none;
+}
+
+#rating {
+    color: #ff0000;
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+    pointer-events: none;
+}
+
+#buttBack {
+    position: absolute;
+    top: 430px;
+    left: 20%;
+}
+
+#buttForward {
+    position: absolute;
+    top: 430px;
+    right: 20%;
+}
+
+.buttons {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 30px;
+    background-color: #0044ff;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 21px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    background-color: #2a61fa;
+}
+
+#testimonial {
+    color: #1a1a1a;
+    max-width: 90%;
+    margin: auto;
+    pointer-events: none;
+}
+
+#quotation {
+    width: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 780px) {
+    #buttBack {
+        left: 16%;
+    }
+
+    #buttForward {
+        right: 16%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #buttBack {
+        left: 22%;
+    }
+
+    #buttForward {
+        right: 22%;
+    }
+}
